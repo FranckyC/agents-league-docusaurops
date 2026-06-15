@@ -1,0 +1,23 @@
+.heroGlow {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(circle at 12% 10%, rgba(32, 201, 151, 0.22), transparent 40%),
+    radial-gradient(circle at 85% 28%, rgba(91, 141, 255, 0.24), transparent 44%),
+    linear-gradient(145deg, #050b1d 10%, #12254f 58%, #0a1a3d 100%);
+}
+
+.pillarCard {
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: 14px;
+  padding: 1.3rem;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--ifm-background-surface-color) 92%, #b7f1dd 8%), var(--ifm-background-surface-color));
+}
+
+.ctaPanel {
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: 16px;
+  padding: clamp(1.8rem, 3.2vw, 2.5rem);
+  text-align: center;
+  background: linear-gradient(130deg, rgba(32, 201, 151, 0.18), rgba(91, 141, 255, 0.15));
+}

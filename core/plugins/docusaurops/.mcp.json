@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+	"workiq_mcpWordServer": {
+		"url": "https://agent365.svc.cloud.microsoft/agents/tenants/{{ENV_AZURE_DEPLOY_TENANT_ID}}/servers/mcp_WordServer",
+		"type": "http"
+	},
+	"workiq_cli": {
+		"command": "cmd",
+		"args": ["/c", "npx -y @microsoft/workiq@latest config set disableBrokeredAuth=true && npx -y @microsoft/workiq@latest mcp"],
+		"tools": ["*"]
+	}
+  }
+}
+
+
+
+
+
